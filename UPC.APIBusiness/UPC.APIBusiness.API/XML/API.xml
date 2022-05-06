@@ -313,6 +313,30 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="F:UPC.APIBusiness.API.Controllers.PacienteController._PacienteRepository">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:UPC.APIBusiness.API.Controllers.PacienteController.#ctor(DBContext.IPacienteRepository)">
+            <summary>
+            
+            </summary>
+            <param name="Paciente"></param>
+        </member>
+        <member name="M:UPC.APIBusiness.API.Controllers.PacienteController.Get">
+            <summary>
+            GetListUser
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UPC.APIBusiness.API.Controllers.PacienteController.Insert(DBEntity.EntityPaciente)">
+            <summary>
+            
+            </summary>
+            <param name="project"></param>
+            <returns></returns>
+        </member>
         <member name="T:UPC.Business.API.Controllers.UserController">
             <summary>
             
