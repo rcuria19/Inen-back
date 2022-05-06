@@ -296,6 +296,35 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="T:UPC.APIBusiness.API.Controllers.EcografiaController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:UPC.APIBusiness.API.Controllers.EcografiaController._EcografiaRepository">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:UPC.APIBusiness.API.Controllers.EcografiaController.#ctor(DBContext.IEcografiaRepository)">
+            <summary>
+            
+            </summary>
+            <param name="EcografiaRepository"></param>
+        </member>
+        <member name="M:UPC.APIBusiness.API.Controllers.EcografiaController.Get">
+            <summary>
+            GetListUser
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UPC.APIBusiness.API.Controllers.EcografiaController.Insert(DBEntity.EntityEcografia)">
+            <summary>
+            
+            </summary>
+            <param name="ecografiaI"></param>
+            <returns></returns>
+        </member>
         <member name="F:UPC.APIBusiness.API.Controllers.EstadoCivilController._EstadoCivilRepository">
             <summary>
             Constructor
