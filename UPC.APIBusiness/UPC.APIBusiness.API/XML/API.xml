@@ -313,6 +313,30 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="F:UPC.APIBusiness.API.Controllers.HistorialMedico._HistorialMedico">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:UPC.APIBusiness.API.Controllers.HistorialMedico.#ctor(UPC.APIBusiness.DBContext.Interface.IHistorialMedicoRepository)">
+            <summary>
+            
+            </summary>
+            <param name="HistorialMedicoRepository"></param>
+        </member>
+        <member name="M:UPC.APIBusiness.API.Controllers.HistorialMedico.Insert(UPC.APIBusiness.DBEntity.Model.EntityHistorialMedico)">
+            <summary>
+            
+            </summary>
+            <param name="historalMedico"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UPC.APIBusiness.API.Controllers.HistorialMedico.GetHistorial">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
         <member name="F:UPC.APIBusiness.API.Controllers.PacienteController._PacienteRepository">
             <summary>
             Constructor
@@ -357,6 +381,13 @@
             <summary>
             GetListUser
             </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UPC.Business.API.Controllers.UserController.Login(UPC.APIBusiness.DBEntity.Model.EntityLogin)">
+            <summary>
+            
+            </summary>
+            <param name="login"></param>
             <returns></returns>
         </member>
         <member name="T:UPC.E31A.APIBusiness.API.Security.AccessToken">

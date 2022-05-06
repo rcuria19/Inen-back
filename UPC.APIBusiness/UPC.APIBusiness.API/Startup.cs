@@ -14,6 +14,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
+using UPC.APIBusiness.DBContext.Interface;
+using UPC.APIBusiness.DBContext.Repository;
 
 namespace API
 {
@@ -125,6 +127,7 @@ namespace API
             services.AddTransient<IEstadoCivilRepository, EstadoCivilRepository>();
             services.AddTransient<IDistritoRepository, DistritoRepository>();
             services.AddTransient<IPacienteRepository, PacienteRepository>();
+            services.AddTransient<IHistorialMedicoRepository, HistorialMedicoRepository>();
 
             // ----------------------------------------------------------------
             services.AddTransient<HttpClientAuthorizationDelegatingHandler>();
