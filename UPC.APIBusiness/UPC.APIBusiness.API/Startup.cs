@@ -127,12 +127,12 @@ namespace API
             services.AddTransient<IEstadoCivilRepository, EstadoCivilRepository>();
             services.AddTransient<IDistritoRepository, DistritoRepository>();
             services.AddTransient<IPacienteRepository, PacienteRepository>();
-<<<<<<< HEAD
+
             services.AddTransient<IHistorialMedicoRepository, HistorialMedicoRepository>();
 
-=======
+
             services.AddTransient<IEcografiaRepository, EcografiaRepository>();
->>>>>>> origin/master
+
             // ----------------------------------------------------------------
             services.AddTransient<HttpClientAuthorizationDelegatingHandler>();
             services.AddTransient<IHttpContextAccessor, HttpContextAccessor>();
